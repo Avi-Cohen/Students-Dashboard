@@ -1,0 +1,31 @@
+{
+  "name": "students-dashboard",
+  "version": "1.0.0",
+  "description": "The students dashboard was created to keep track of the appleseeds students attendance during the bootcamp.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Avi-Cohen/Students-Dashboard.git"
+  },
+  "author": "Avi Cohen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Avi-Cohen/Students-Dashboard/issues"
+  },
+  "homepage": "https://github.com/Avi-Cohen/Students-Dashboard#readme",
+  "dependencies": {
+    "concurrently": "^5.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.16",
+    "nodemon": "^2.0.7"
+  }
+}

@@ -12,10 +12,10 @@ const URI = process.env.MONGO_URL
 
 // connect to mongo
 mongoose.connect(URI, {
-    useCreateIndex: true,
-    useFindAndModify: true,
     useNewUrlParser: true,
-    useUnifiedTopology: true
+    useCreateIndex: true,
+    useUnifiedTopology: true,
+    useFindAndModify: false,
 }, (err) => {
     if(err) throw err;
     else {

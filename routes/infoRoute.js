@@ -1,7 +1,7 @@
 const router = require('express').Router()
-const infoSchema = require('../model/infoModel')
 const {getInfo, addInfo, getInfoId, addUpdate, deleteInfo} = require('../controllers/infoCtrl')
 
+router.get('/', (req,res)=> {})
 // getting info data
 router.get('/info', getInfo)
 

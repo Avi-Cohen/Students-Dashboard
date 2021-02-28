@@ -17,6 +17,7 @@ const AddInfo = () => {
                     <input type="text" placeholder="Student Name" name=''/>
                     <label htmlFor="attendance">Attendance</label>
                     <input type="number" attendance=''/>
+                    <button type="submit">Add</button>
                 </form>
                 <div className="information">
                     <h4>Student posted</h4>

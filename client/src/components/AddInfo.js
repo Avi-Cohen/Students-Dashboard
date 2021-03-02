@@ -14,15 +14,18 @@ const AddInfo = () => {
                 {/*form*/}
                 <form>
                     <label htmlFor="name">Name</label>
-                    <input type="text" placeholder="Student Name" name=''/>
+                    <input type="text" placeholder="Student Name" name='' className="inputs"/>
                     <label htmlFor="attendance">Attendance</label>
-                    <input type="number" attendance=''/>
+                    <input type="number" attendance='' className="inputs"/>
                     <button type="submit">Add</button>
                 </form>
                 <div className="information">
-                    <h4>Student posted</h4>
-                    <h4>Student deleted</h4>
+                    <h4 className="postedMsg">Student posted</h4>
+                    <h4 className="deletedMsg">Student deleted</h4>
                     <div className="information-center">
+                        <Information/>
+                        <Information/>
+                        <Information/>
                         <Information/>
                     </div>
                 </div>

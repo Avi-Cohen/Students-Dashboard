@@ -5,10 +5,10 @@ const Information = () => {
     return(
         <div className="single-info">
             <div className="info dateIcons">
-                <div className="dates"></div>
+                <div className="date">03/01/1993</div>
                 <div className="icons">
                     <Link to='/'>
-                        <i className='fas daa-edit'></i>
+                        <i className='fas fa-edit'></i>
                     </Link>
                     <i className="fas fa-trash"></i>
                 </div>
